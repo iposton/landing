@@ -1,0 +1,425 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Landing:CSS Animation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/bootstrapValidator.css">
+
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/main.css">
+
+       <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    </head>
+    <body data-spy="scroll" data-target=".navbar">
+
+       <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+              <div class="navbar-collapse collapse">
+                   <ul class="nav nav-justified">
+                       <li><a data-scroll href="#about">About the App</a></li>
+                       <li><a data-scroll href="#features">Features</a></li>
+                       <li><a data-scroll href="#screenshots">Screenshots</a></li>
+                       <li><a data-scroll href="#download">Download</a></li>
+                       <li><a data-scroll href="#support">Support</a></li>
+                   </ul>
+              </div> <!-- end of navbar collapse -->
+            </div> <!-- end of container -->
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div> <!-- end of navbar-header -->
+
+        </nav> <!-- end of navbar-fixed-top -->
+       </header>
+
+       <section id="slider" class="carousel slide" data-ride="carousel">
+           <div class="carousel-inner">
+               <div class="item active">
+                   <img src="img/slider_1.png" alt="">
+               </div>
+                <div class="item">
+                   <img src="img/slider_2.png" alt="">
+               </div>
+                <div class="item">
+                   <img src="img/slider_3.png" alt="">
+               </div>
+           </div> <!-- end of carousel-inner -->
+           <a href="#slider" class="left carousel-control" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-left "></span>
+           </a>
+            <a href="#slider" class="right carousel-control" role="button" data-slide="prev">
+               <span class="glyphicon glyphicon-chevron-right "></span>
+           </a>
+           <ol class="carousel-indicators">
+               <li data-target="#slider" data-slide-to="0" class="active"></li>
+               <li data-target="#slider" data-slide-to="1"></li>
+               <li data-target="#slider" data-slide-to="2" ></li>
+           </ol>
+       </section> <!-- end of slider section -->
+
+       <section id="about" class="about">
+           <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                       
+                           <div class="blue-circle animation1">
+                             <div>
+                              <i class="fa fa-facebook"></i>
+                              <i class="fa fa-twitter"></i>
+                              <i class="fa fa-google-plus"></i>
+                            </div>
+                           </div>
+                       
+                           <h3 class="text-uppercase text-center">Facebook & Twitter</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime libero labore fugit dolorum atque, blanditiis molestiae harum possimus magni suscipit perferendis, tempore officia! Ullam suscipit maxime ab eius eum, a.</p>
+
+                    </div> <!-- end of column -->
+
+                    <div class="col-sm-4">
+                           <div class="blue-circle animation2">
+                            <div>
+                              <i class="fa fa-check"></i>
+                            </div>
+                           </div>
+                       
+                           <h3 class="text-uppercase text-center">Online Support</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime libero labore fugit dolorum atque, blanditiis molestiae harum possimus magni suscipit perferendis, tempore officia! Ullam suscipit maxime ab eius eum, a.</p>
+                       
+                    </div> <!-- end of column -->
+
+                    <div class="col-sm-4">
+                           <div class="blue-circle animation3">
+                            <div>
+                              <i class="fa fa-apple"></i>
+                              <i class="fa fa-android"></i>
+                            </div> 
+                           </div>
+                       
+                           <h3 class="text-uppercase text-center">iOS & Android</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime libero labore fugit dolorum atque, blanditiis molestiae harum possimus magni suscipit perferendis, tempore officia! Ullam suscipit maxime ab eius eum, a.</p>
+                    </div> <!-- end of column -->
+                     
+               </div> <!-- end of row -->
+           </div> <!-- end of container -->
+           
+       </section> <!-- end of about section -->
+
+       <section id="features" class="features">
+        <h2 class="text-uppercase text-center">Features</h2>
+        <div class="container">
+            <div class="row">
+                <div class="left-features col-sm-4">
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8">
+                            <h4>Facebook & Twitter</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="blue-circle animation1">
+                             <div>
+                              <i class="fa fa-facebook"></i>
+                              <i class="fa fa-twitter"></i>
+                              <i class="fa fa-google-plus"></i>
+                             </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8">
+                            <h4>User Points</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="blue-circle animation1">
+                             <div>
+                              <i class="fa fa-user"></i>
+                              
+                             </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8">
+                            <h4>Buy Tickets Online </h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="blue-circle animation1">
+                                 <div>
+                              <i class="fa fa-ticket"></i>
+                              
+                             </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8">
+                            <h4>Watch Movie Trailers</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="blue-circle animation1">
+                             <div>
+                              <i class="fa fa-youtube-play"></i>
+                             </div>
+                            </div>
+
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8">
+                            <h4>Check Seat Availability</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="blue-circle animation1">
+                             <div>
+                              <i class="fa fa-check-circle-o"></i>
+                             </div> 
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+                </div> <!-- end of left feature -->
+
+                 <div class="features-image col-sm-4">
+                    <img src="img/features.png" alt="">
+                </div>
+
+                 <div class="right-features col-sm-4">
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8 col-sm-push-4 text-right">
+                            <h4>Pay with credit card</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4 col-sm-pull-8">
+                            <div class="blue-circle animation2">
+                             <div>
+                              <i class="fa fa-credit-card"></i>
+                             </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8 col-sm-push-4 text-right">
+                            <h4>Rate the movie</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4 col-sm-pull-8">
+                            <div class="blue-circle animation2">
+                            <div>
+                              <i class="fa fa-thumbs-up"></i>
+                            </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8 col-sm-push-4 text-right">
+                            <h4>Reward points</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4 col-sm-pull-8">
+                            <div class="blue-circle animation2">
+                             <div>
+                              <i class="fa fa-exchange"></i>
+                             </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8 col-sm-push-4 text-right">
+                            <h4>Check in intergrated</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4 col-sm-pull-8">
+                            <div class="blue-circle animation2">
+                             <div>
+                              <i class="fa fa-check-square-o"></i>
+                             </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+
+
+                    <div class="item-feature row">
+                        <div class="content col-sm-8 col-sm-push-4 text-right">
+                            <h4>Access all promos</h4>
+                            <p>This is some facebook text.</p>
+                        </div>
+                        <div class="col-sm-4 col-sm-pull-8">
+                            <div class="blue-circle animation2">
+                                 <div>
+                              <i class="fa fa-tag"></i>
+                             </div>
+                            </div>
+                        </div>
+                    </div> <!-- end of item feature -->
+                    
+                </div> <!-- end of right features -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container-->
+           
+       </section> <!-- end of features section -->
+
+       <section id="screenshots" class="screenshots">
+            <h2 class="text-uppercase text-center">Screenshots</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 animation1">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/modal_tickets.png">
+                            <img class="img-responsive" src="img/modal_tickets.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 animation2">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/modal_trailers.png">
+                            <img class="img-responsive" src="img/modal_trailers.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-sm-4 animation3">
+                        <a href="#modal" data-toggle="modal" data-image-url="img/modal_points.png">
+                            <img class="img-responsive" src="img/modal_points.png" alt="">
+                        </a>
+                    </div>
+
+                </div> <!-- end of row -->
+           </div> <!-- end of container -->
+
+           <div id="modal" class="modal fade" tab-index="-1" aria-labelledby="modal" aria-hidden="true">
+               <div class="modal-body">
+                   <img src="#" alt="">
+                   <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+               </div>
+           </div>
+           
+       </section> <!-- end of screenshots section -->
+
+       <section id="parallax" class="parallax">
+        <h2 class="parallax text-center">Also available for i-Pad</h2>
+           
+
+       </section> <!-- end of parallax section -->
+
+       <section id="download" class="download">
+           <h2 class="text-center text-uppercase">Download</h2>
+           <div class="container-fluid">
+               <div class="row">
+                <div class="content-downloads clearfix">
+                    <div class="phone">
+                        <img src="img/download.png"  class="img-responsive" alt="phone download picture">
+                        
+                    </div> <!-- end of phone -->
+                    <div class="downloads-empty"></div>
+                    <div class="container download">
+                        <div class="row">
+                            <div class="col-md-5 col-sm-offset-7">
+                                <h2 class="text-center text-uppercase">Choose your platform</h2>
+                                <section class="platforms text-center">
+                                   <div class="col-md-5 col-sm-6 animation2">
+                                    <i class="fa fa-apple"></i>
+                                    Download for <b>Apple ios</b>
+                                   </div> 
+                                    <div class="col-md-5 col-md-offset-1 col-sm-6 animation3">
+                                        <i class="fa fa-android"></i>
+                                    Download for <b>Android</b>
+                                   </div>
+                                </section>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                   
+               </div>
+           </div>
+       </section> <!-- end of download section -->
+
+       <section id="support" class="support">
+         <h2 class="text-center text-uppercase">Support</h2>
+         <p class="text-center">Please fill out the inquiry form.</p>
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-8 col-md-offset-2">
+                     <form id="support" method="post" action="ajaxSubmit.php" class="form-horizontal">
+
+                        <div class="form-group">
+                          <div class="col-sm-12">
+                           <input class="form-control field" type="text" name="name" placeholder="Enter your name" require>
+                          </div> 
+                         </div>
+
+                         <div class="form-group">
+                          <div class="col-sm-12">
+                            <input class="form-control field" type="email" name="email" placeholder="Enter your email" require>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <div class="col-sm-12">
+                            <textarea class="form-control field"  name="message" placeholder="Please leave us a message"></textarea>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                             <div class="col-sm-12">
+                             <button type="submit" class="btn btn-default">Submit</button>
+                             </div>
+                          </div>
+
+                           <div id="ok">
+                             Your message has been sent
+                           </div>
+
+                     </form>
+                 </div>
+             </div>
+         </div>
+           
+       </section> <!-- end of support section -->
+
+       <footer>
+           <p class="text-center text-uppercase">All Rights Reseved &copy; 2015 | built with <i class="glyphicon glyphicon-heart"></i> by <a href="http://www.ianposton.com/blog/portfolio.html">Ian Poston</a></p>
+       </footer>
+
+      
+         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrapValidator.js"></script>
+
+        <script src="js/smooth-scroll.js"></script>
+        <script src="js/waypoints.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
